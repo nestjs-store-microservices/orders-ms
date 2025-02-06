@@ -14,6 +14,9 @@ steps:
         'northamerica-south1-docker.pkg.dev/iron-radio-450121-s8/store-registry/store-orders-ms',
       ]
 
+options:
+  logging: CLOUD_LOGGING_ONLY
+
 availableSecrets:
   secretManager:
     - versionName: projects/910467791073/secrets/orders_database_url/versions/1
